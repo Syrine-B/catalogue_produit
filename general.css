@@ -1,0 +1,91 @@
+/* accueil.css */
+
+body {
+    margin: 0;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    background-color: #ffffff; 
+    color: #030303; 
+    min-height: 100%;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.dropdown {
+    margin-top: -10px;
+}
+
+.main-content {
+    text-align: center;
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.button_gauche {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none; /* Correction de la valeur incorrecte */
+    text-align: center;
+    background-color: #ffA500; 
+    color: #fff; /* Texte blanc */
+    font-family: Times, "Times New Roman", Georgia, serif;
+    transition: background-color 0.3s ease; /* Transition en douceur */
+}
+
+
+.button_droite {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none; /* Correction de la valeur incorrecte */
+    text-align: center;
+    background-color: #df0505; 
+    font-family: Times, "Times New Roman", Georgia, serif;
+    color: #fff; /* Texte blanc */
+    transition: background-color 0.3s ease; /* Transition en douceur */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none; /* Correction de la valeur incorrecte */
+    text-align: center;
+    background-color: #08ea48; 
+    font-family: Times, "Times New Roman", Georgia, serif;
+    color: #fff; /* Texte blanc */
+    transition: background-color 0.3s ease; /* Transition en douceur */
+}
+
+footer {
+    position:fixed;
+    bottom:0; 
+    right: 0;
+}
+

@@ -1,0 +1,77 @@
+/* periph.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff; 
+    color: #000000;
+    text-align: center; 
+}
+
+/* Style pour centrer les titres */
+h1, h2 {
+    font-family: Times, "Times New Roman", Georgia, serif;
+    color: #000000; 
+}
+
+/* Styles pour les lignes */
+p {
+    font-family: Times, "Times New Roman", Georgia, serif;
+    color: #000000; 
+    text-align: center; /* Centrage de tout le contenu */
+}
+
+/* Style pour centrer les images */
+img {
+    display: block; /* Assure que l'image occupe toute la largeur disponible */
+    margin: 2cm auto 0; /* Positionne l'image à 2cm du haut de la page */
+}
+
+/* Styles pour le menu déroulant */
+select {
+    margin: 1cm auto 0; /* Centre le menu déroulant horizontalement */
+    display: block; /* Permet l'utilisation des marges */
+    text-transform: uppercase;
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.product img.product-image {
+    width: 300px; /* 15 cm en pixels (à une résolution d'écran standard) */
+    height: 300px; /* 15 cm en pixels (à une résolution d'écran standard) */
+    object-fit: cover; /* Assure que l'image remplisse la taille fixée sans déformation */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none; /* Correction de la valeur incorrecte */
+    text-align: center;
+    background-color: #ffA500; /* Orange */
+    color: #fff; /* Texte blanc */
+    font-family: Times, "Times New Roman", Georgia, serif;
+    transition: background-color 0.3s ease; /* Transition en douceur */
+}
+
+.buttonRecherche {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none; /* Correction de la valeur incorrecte */
+    text-align: center;
+    background-color: #dd1815; /* Orange */
+    color: #fff; /* Texte blanc */
+    font-family: Times, "Times New Roman", Georgia, serif;
+    transition: background-color 0.3s ease; /* Transition en douceur */
+}
+
+.large-input {
+    width: 500px;
+}
